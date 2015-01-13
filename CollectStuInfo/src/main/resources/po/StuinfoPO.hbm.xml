@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="dataAccess.po.StuinfoPO" table="stuinfo" schema="" catalog="csustuinfo">
+        <id name="id">
+            <column name="ID" sql-type="int" not-null="true"/>
+        </id>
+        <property name="stuId">
+            <column name="StuID" sql-type="varchar" length="11"/>
+        </property>
+        <property name="name">
+            <column name="Name" sql-type="varchar"/>
+        </property>
+        <property name="sex">
+            <column name="Sex" sql-type="varchar"/>
+        </property>
+        <property name="birthtime">
+            <column name="Birthtime" sql-type="date"/>
+        </property>
+        <property name="nativePlace">
+            <column name="NativePlace" sql-type="varchar"/>
+        </property>
+        <property name="nationality">
+            <column name="Nationality" sql-type="varchar"/>
+        </property>
+        <property name="politicalStatus">
+            <column name="PoliticalStatus" sql-type="varchar"/>
+        </property>
+        <property name="familyAddress">
+            <column name="FamilyAddress" sql-type="varchar"/>
+        </property>
+        <property name="zipCode">
+            <column name="ZipCode" sql-type="varchar"/>
+        </property>
+        <property name="district">
+            <column name="District" sql-type="varchar"/>
+        </property>
+        <property name="cetId">
+            <column name="CetID" sql-type="varchar"/>
+        </property>
+        <property name="remarks">
+            <column name="Remarks" sql-type="varchar"/>
+        </property>
+    </class>
+</hibernate-mapping>
