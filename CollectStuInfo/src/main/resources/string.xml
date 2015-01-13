@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <collectStuInfo>
+        <current>
+
+        </current>
+        <source>
+            <string type="getclass">http://csujwc.its.csu.edu.cn/XSXJ/Private/List_ZYBJ.aspx?zy=&amp;nj=</string>
+            <string type="getstu">http://csujwc.its.csu.edu.cn/XSXJ/FB_BJXS_rpt.aspx?Sel_BJ=班级代号</string>
+        </source>
+    </collectStuInfo>
+</root>
