@@ -1,7 +1,6 @@
 package dataAccess.po;
 
 import javax.persistence.*;
-import java.sql.Date;
 
 /**
  * Created by ML3426 on 2015/1/14 0014.
@@ -13,7 +12,7 @@ public class StuinfoPO {
     private String stuId;
     private String name;
     private String sex;
-    private Date birthtime;
+    private String birthtime;
     private String nativePlace;
     private String nationality;
     private String politicalStatus;
@@ -65,11 +64,11 @@ public class StuinfoPO {
 
     @Basic
     @Column(name = "Birthtime", nullable = true, insertable = true, updatable = true)
-    public Date getBirthtime() {
+    public String getBirthtime() {
         return birthtime;
     }
 
-    public void setBirthtime(Date birthtime) {
+    public void setBirthtime(String birthtime) {
         this.birthtime = birthtime;
     }
 

@@ -26,8 +26,8 @@ public class GetClassInfo {
         classInfoUrl = Resourse.getString("getclass");
     }
 
-    public String parseHTML() {
-        Document doc = null;
+    public void parseHTML() {
+        Document doc;
         try {
             doc = Jsoup.connect(classInfoUrl).
                     timeout(20000).
@@ -55,6 +55,5 @@ public class GetClassInfo {
             }
             logger.error(e.getMessage(), e);
         }
-        return doc.toString();
     }
 }

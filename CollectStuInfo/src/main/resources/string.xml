@@ -2,11 +2,13 @@
 <root>
     <collectStuInfo>
         <current>
-
+            <string type="class">haha</string>
+            <string type="student">haha</string>
         </current>
         <source>
             <string type="getclass">http://csujwc.its.csu.edu.cn/XSXJ/Private/List_ZYBJ.aspx?zy=&amp;nj=</string>
-            <string type="getstu">http://csujwc.its.csu.edu.cn/XSXJ/FB_BJXS_rpt.aspx?Sel_BJ=班级代号</string>
+            <string type="getstu">http://csujwc.its.csu.edu.cn/XSXJ/FB_BJXS_rpt.aspx?Sel_BJ=</string>
+            <string type="getcet">http://202.197.61.241/cetmodifyb.asp</string>
         </source>
     </collectStuInfo>
 </root>

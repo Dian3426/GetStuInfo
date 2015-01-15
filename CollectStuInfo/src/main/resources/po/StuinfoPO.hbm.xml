@@ -9,7 +9,7 @@
             <column name="ID" sql-type="int" not-null="true"/>
         </id>
         <property name="stuId">
-            <column name="StuID" sql-type="varchar" length="11"/>
+            <column name="StuID" sql-type="varchar"/>
         </property>
         <property name="name">
             <column name="Name" sql-type="varchar"/>
@@ -18,7 +18,7 @@
             <column name="Sex" sql-type="varchar"/>
         </property>
         <property name="birthtime">
-            <column name="Birthtime" sql-type="date"/>
+            <column name="Birthtime" sql-type="varchar"/>
         </property>
         <property name="nativePlace">
             <column name="NativePlace" sql-type="varchar"/>

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>CollectStuInfo</groupId>
-    <artifactId>1.0</artifactId>
+    <artifactId>CollectStuInfo</artifactId>
     <version>1.0</version>
 
     <dependencies>
@@ -46,7 +46,7 @@
         <!--Hibernate End-->
 
         <dependency>
-            <!-- log4j记录库 -->
+            <!-- log4j 记录库 -->
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
